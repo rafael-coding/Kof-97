@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="shortcut icon" href="./img/Kof97logo.png" type="image/x-icon">
+    <title>kof97</title>
+</head>
+<body>
+    <div class="initial" id="initial">
+        <div class="bg">
+            <img src="./img/giphy.gif" class="fire" alt="">
+        </div>
+        <div class="sound">
+            <img src="./img/volume-up-solid.svg" class="soundicon" id="icon" alt="">
+
+        </div>
+        <img src="./img/Kof97logo.png" class="logo"alt="logo">
+        <div class="dbtn">
+        <button id="btn" class="btn">Press Start</button>
+        </div>
+        <audio autoplay loop="loop" id='song1'>
+            <source src="./music/kof97intro.mp3" type="audio/mp3"/>
+        </audio>
+    </div>
+    <div class="charsec" id="select">
+        <div class="bg2">
+            <img src="./img/maincharacter.png" class="maincharacter" alt="">
+        </div>
+        <div class="characters">
+          <div class="line">
+              <div class="lines">
+              <img src="./img/KyoPerfil.png" class="img" onmouseover = "changes()" onclick="starts()" alt="">
+              <img src="./img/BeniPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+              <img src="./img/GoroPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            </div>
+            <div class="lines">
+              <img src="./img/LeonaPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+              <img src="./img/RalfPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+              <img src="./img/ClarkPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            </div>
+            <div class="lines">
+              <img src="./img/KimPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+              <img src="./img/ChangPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+              <img src="./img/ChoiPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            </div>
+          </div>
+          <div class="line">
+            <div class="lines">
+            <img src="./img/TerryPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/AndyPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/JoePerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        <div class="lines">
+            <img src="./img/AtenaPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/KensouPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/ChinPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        <div class="lines">
+            <img src="./img/YashiroPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/ShermiePerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/ChrisPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        </div>
+        <div class="line">
+            <div class="lines">
+            <img src="./img/RyoPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/RobertPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/YuriPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        <div class="lines">
+            <img src="./img/ChizuroPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/MaiPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/KingPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        <div class="lines">
+            <img src="./img/YamazakiPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/BluemariPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            <img src="./img/BillyPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+        </div>
+        </div>
+        </div>
+        <div class="characters2">
+            <div class="line2">
+                <img src="./img/IoriPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+                <img src="./img/IshigoPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            </div>
+        </div>
+        <div class="characters3">
+            <div class="line3">
+                <img src="./img/IoriOPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+                <img src="./img/YashiroOPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+                <img src="./img/ShermieOPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+                <img src="./img/ChrisOPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+                <img src="./img/LeonaOPerfil.png" class="img" onmouseover = "changes()" onclick="starts()"  alt="">
+            </div>
+        </div>
+    
+        <audio autoplay loop="loop" id='songselect'volume="10%">
+            <source src="./music/kof97select.mp3" type="audio/mp3"/>
+        </audio>
+        <audio id='start'>
+            <source src="./music/start.mp3" type="audio/mp3"/>
+        </audio>
+        <audio id='change'>
+            <source src="./music/change.mp3" type="audio/mp3"/>
+        </audio>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
